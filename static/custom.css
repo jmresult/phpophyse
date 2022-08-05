@@ -1,0 +1,16 @@
+
+body, html {
+    width: 100%;
+}
+
+.add_to_popup{
+    background: rgb(0 0 0 / 30%) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 1s ease-in-out;
+}
+
+#add_to_popup:not(.add_to_popup) i{
+    display: none;
+}
